@@ -41,4 +41,4 @@ for ii in range(1,7):
     print(maxcount)
     print(f'bouba_{identified_file:04d}.wav')
     print(offset)
-    np.savez_compressed('./last_match/boubacounter201-350'+f"{ii}", track_most_common_offset_counter)
+    np.savez_compressed('./last_match/boubacounter201-350'+f"Q{ii}", track_most_common_offset_counter)
